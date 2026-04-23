@@ -1,3 +1,3 @@
 # SimplicityHL Standard Library
 
-WIP
+This repository contains the standard library for [SimplicityHL](https://github.com/BlockstreamResearch/SimplicityHL).
