@@ -71,7 +71,7 @@ Input/output by index.
 
 Q. Isn't the first one directly implemented by a jet? Do we just need to `unwrap` in case of a potentially-nonexistent input or output?
 
-# OP_RETURN
+# `OP_RETURN`
 
 * `ensure_op_return` function
 * get `OP_RETURN` data
