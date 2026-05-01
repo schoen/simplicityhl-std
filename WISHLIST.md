@@ -14,7 +14,7 @@ Maybe not needed if these are already rolled out as infix operators. I would som
 
 * `and`
   * Implementation:
-  * ```javascript
+  * ```rust
     fn and(a: bool, b: bool) -> bool {
         match a {
             true => b,
@@ -24,7 +24,7 @@ Maybe not needed if these are already rolled out as infix operators. I would som
     ```
 * `or`
   * Implementation:
-  * ```javascript
+  * ```rust
     fn or(a: bool, b: bool) -> bool {
         match a {
             true => true,
@@ -34,7 +34,7 @@ Maybe not needed if these are already rolled out as infix operators. I would som
     ```
 * `not`
   * Implementation:
-  * ```javascript
+  * ```rust
     fn not(a: bool) -> bool {
         match a {
             true => false,
@@ -105,7 +105,7 @@ Q. Are there (or could there be) standard protocols or conventions for (1) coven
 * Oracle interpretation, once some oracle formats are standardized
 * Relative timelocks (replacements for deprecated jets).
   * Implementations:
-  * ```javascript
+  * ```rust
     fn enforce_relative_distance(min_distance: Distance) {
         // Assert that the current input is spent in a transaction that can
         // only appear a distance of at least min_distance blocks after the input's
